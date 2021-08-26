@@ -1,59 +1,78 @@
-*{
+* {
     font-family: cursive;
-}
-header{
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .container-header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
     position: absolute;
     display: flex;
-    height: 100px;
+    height: 50%;
     width: 100%;
-    background-color: rgb(141, 172, 172);
     margin-left: -8px;
     margin-top: -8px;
-}
-.h1.NachoGaleano{
-    margin-top: 0px;
-    width: 100%;
-}
-.h1.NachoGaleano{
+    background-image: url("assets/images/studio1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+  }
+  
+  .NachoGaleano {
     height: 100%;
     width: 15%;
     display: block;
     text-align: center;
-}
-ul{
+  }
+  
+  .NachoGaleano img {
+    height: inherit;
+  }
+  
+  ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: inline-flex;
-}
-li{
+  }
+  
+  li {
     float: left;
-}
-
-li a {
-    display:block;
-    color: #000;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     padding: 7px 15px;
     text-decoration: none;
     text-align: center;
     font-size: large;
     border-radius: 20px;
-
-}
-
-li a:hover{
+  }
+  
+  li a:hover {
     background-color: #555;
     color: white;
-}
-
-li a:active{
-    color:turquoise;
-    
-}
-
-.menu {
+  }
+  
+  .menu {
     width: 75%;
     text-align: center;
     align-self: center;
+  }
+  
+  .slideshow-container {
+    margin-top: 25%;
+  }
     
 

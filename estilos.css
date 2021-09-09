@@ -11,7 +11,7 @@
     background-color: var(--backgroundColor);
   }
   body{
-    background-image: url("assets/images/studio1.jpg");
+    background-image: url("assets/images/fotobar.jpg");
     background-attachment: inherit;
     background-position-x: center;
     height: 100vh;
@@ -55,18 +55,18 @@
     height: inherit;
   }
   
-  ul {
+  .menu ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: inline-flex;
   }
   
-  li {
+  .menu li {
     float: left;
   }
   
-  li a {
+  .menu li a {
     display: block;
     color: white;
     padding: 7px 15px;
@@ -76,7 +76,7 @@
     border-radius: 20px;
   }
   
-  li a:hover {
+  .menu li a:hover {
     background-color: #555;
     color: white;
   }
@@ -156,9 +156,9 @@
 
   .fade{
     -webkit-animation: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
   }
 
   @-webkit-keyframes face{
@@ -173,24 +173,52 @@
   .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 2%;
     padding: 10px; 
+    background-color: var(--backgroundColor);
+    
   }
-
-
-
   .grid-item{
     padding: 20px;
     font-size: 30px;
     text-align: center;
     height: 250px;
     width: 90%;
+    transition: .2s;
 
   }
+  .grid-item:hover{
+    transform: scale(1.2);
 
+  }
   .grid-item img {
     height: inherit;
     width: inherit;
+  }
+  
+  .container-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px; 
+    background-color: var(--backgroundColor);
+    
+  }
+  .grid-footer{
+    padding: 20px;
+    font-size: 30px;
+    height: 250px;
+    width: 90%;
+  }
+
+  .grid-footer li a {
+    display: block;
+    color: gray; 
+    text-decoration: none; 
+    font-size: large;
+  }
+  .grid-footer h6 {
+    scroll-margin-block-start: 1em;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
   }
 
 

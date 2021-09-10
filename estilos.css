@@ -222,3 +222,18 @@
   }
 
 
+.container-icons{
+  position:absolute;
+  top: 50%;
+  font-size: 30px;
+}
+.whatsapp{
+  color: green;
+}
+
+
+footer{
+  width: 100%;
+  text-align: center;
+  color: black;
+}
